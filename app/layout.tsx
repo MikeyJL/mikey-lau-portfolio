@@ -9,7 +9,7 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="container mx-auto py-[100px]">{children}</body>
+      <body className="container mx-auto py-24">{children}</body>
     </html>
   );
 };

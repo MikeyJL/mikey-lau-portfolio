@@ -5,3 +5,29 @@
 html {
 	font-family: monospace;
 }
+
+@layer utilities {
+	.title-400 {
+		@apply text-4xl;
+	}
+
+	.title-700 {
+		@apply title-400 font-bold;
+	}
+
+	.subtitle-400 {
+		@apply text-2xl;
+	}
+
+	.subtitle-700 {
+		@apply subtitle-400 font-bold;
+	}
+
+	.body-400 {
+		@apply text-base;
+	}
+
+	.body-700 {
+		@apply body-400 font-bold;
+	}
+}
