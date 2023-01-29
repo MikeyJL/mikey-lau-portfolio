@@ -1,10 +1,7 @@
-import './globals.css'
+import { ReactNode } from "react";
+import "./globals.css";
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
     <html lang="en">
       {/*
@@ -12,7 +9,9 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body className="container mx-auto py-[100px]">{children}</body>
     </html>
-  )
-}
+  );
+};
+
+export default RootLayout;
