@@ -1,4 +1,5 @@
 "use client";
+
 import { useEffectOnce } from "react-use";
 import {
   clampDimensions,
@@ -47,7 +48,7 @@ const ProfileImage = () => {
       <canvas id="profile-image" className="hidden" />
       <pre
         id="ascii-profile"
-        className="w-fit text-[6px] bg-black text-neutral-300 leading-none tracking-[-1px]"
+        className="w-fit bg-black text-[6px] leading-none tracking-[-1px] text-neutral-300"
       />
     </>
   );
