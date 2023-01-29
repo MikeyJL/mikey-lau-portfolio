@@ -47,7 +47,7 @@ const ProfileImage = () => {
       <canvas id="profile-image" className="hidden" />
       <pre
         id="ascii-profile"
-        className="w-fit text-[6px] bg-black text-neutral-300"
+        className="w-fit text-[6px] bg-black text-neutral-300 leading-none tracking-[-1px]"
       />
     </>
   );
