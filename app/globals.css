@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-	font-family: monospace;
+	@apply font-mono text-base leading-4;
 }
 
 @layer utilities {
